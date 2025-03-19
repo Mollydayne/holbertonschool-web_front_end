@@ -326,13 +326,13 @@ ul.row {
 }
 
 .nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 20%;
-    background-color: var(--color-white);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
